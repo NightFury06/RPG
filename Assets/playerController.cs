@@ -67,5 +67,4 @@ public class playerController : MonoBehaviour {
 		if (jumpVelocity < 0) { return; }
 		jumpVelocity -= 1.2f;
 	}
-	//HI
 }
