@@ -58,7 +58,7 @@ public class playerController : MonoBehaviour {
 
 		if (Input.GetKeyDown (KeyCode.Space) && cc.isGrounded) {
 			jumpVelocity = jumpHeight;
-			cc.Move (velocity - jumpVector);
+			cc.Move (velocity + jumpVector);
 			state = "Jump";
 		}
 }
